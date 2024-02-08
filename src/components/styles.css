@@ -1,0 +1,69 @@
+.modal-backdrop {
+    position: fixed; /* Posición fija respecto al viewport */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo semi-transparente */
+    display: flex;
+    justify-content: center; /* Centrado horizontal */
+    align-items: center; /* Centrado vertical */
+    z-index: 1050; /* Asegura que se muestre por encima de otros elementos */
+  }
+  
+  .modal {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 30%; /* O el ancho que prefieras */
+    max-width: 500px; /* Un máximo para que no se vea demasiado grande en pantallas grandes */
+  }
+  
+.form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px; /* Ajusta según sea necesario */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .btn-save,
+  .btn-cancel {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .btn-save {
+    background-color: #4CAF50; /* Verde */
+    color: white;
+  }
+  
+  .btn-cancel {
+    background-color: #f44336; /* Rojo */
+    color: white;
+  }
+  
+  /* Opcional: Puedes añadir :hover para mejorar la interactividad */
+  .btn-save:hover {
+    background-color: #45a049;
+  }
+  
+  .btn-cancel:hover {
+    background-color: #d32f2f;
+  }
+  

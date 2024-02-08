@@ -1,0 +1,74 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.fondo-pepa {
+  background-image: url('./img/login-bg.jpg'); /* Reemplaza 'ruta/a/la/imagen/de/pepa.jpg' con la ruta de tu imagen de fondo */
+  background-size: cover;
+  background-position: center;
+}
+
+/* Agrega este CSS en tu archivo de estilos global o componente específico */
+.modal-input {
+  width: 100%;
+  padding: 8px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.modal-input:focus {
+  outline: none;
+  border-color: #666;
+}
+
+/* Asegúrate de que el texto sea negro para visibilidad */
+.text-black {
+  color: #000;
+}
+
+/* Botón con estilo básico */
+.button {
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.button:hover {
+  opacity: 0.8;
+}
