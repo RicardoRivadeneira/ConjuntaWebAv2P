@@ -68,7 +68,7 @@ npm --version
 
 1. Clona el repositorio en tu máquina local
 
-2. Navega al directorio del proyecto y instala las dependencias necesarias: (Abre tu Visual Studio Code, Open Folder, Selecciona la carpeta descomprimida de este proyecto) o por la terminal ingresa a la carpeta descomprimida ```cd carpetaCodigo```
+2. Navega al directorio del proyecto e instala las dependencias necesarias: (Abre tu Visual Studio Code, Open Folder, Selecciona la carpeta descomprimida de este proyecto) o por la terminal ingresa a la carpeta descomprimida ```cd carpetaCodigo```
 3. En la terminal coloca: ```npm install```
 4. Inicia el servidor de desarrollo local: ```npm run dev```
 5. El proyecto debería estar ahora corriendo y accesible a través de `http://localhost:5173`
